@@ -11,28 +11,28 @@ public class ZooKeeper {
     }
 
     public void rollCall(ArrayList<Animals> animals) {
-        System.out.println("The zoomkeeper is rolling call animals");
+        System.out.println("The zookeeper is rolling call animals");
         for (Animals animal : animals) {
             System.out.println(animal.makeNoise());
         }
     }
 
     public void feed(ArrayList<Animals> animals) {
-        System.out.println("The zoomkeeper is feeding animals");
+        System.out.println("The zookeeper is feeding animals");
         for (Animals animal : animals) {
             System.out.println(animal.eat());
         }
     }
 
     public void exercise(ArrayList<Animals> animals) {
-        System.out.println("The zoomkeeper is exercising animals");
+        System.out.println("The zookeeper is exercising animals");
         for (Animals animal : animals) {
             System.out.println(animal.roam());
         }
     }
 
     public void shutdown(ArrayList<Animals> animals) {
-        System.out.println("The zoomkeeper is shuting down the zoo");
+        System.out.println("The zookeeper is shutting down the zoo");
         for (Animals animal : animals) {
             System.out.println(animal.sleep());
         }
