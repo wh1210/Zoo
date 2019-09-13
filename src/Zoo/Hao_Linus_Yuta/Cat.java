@@ -1,5 +1,7 @@
 package Zoo.Hao_Linus_Yuta;
 
+import java.util.Random;
+
 final class Cat extends Feline {
 
     public Cat(String name) {
@@ -8,7 +10,27 @@ final class Cat extends Feline {
 
     @Override
     public String makeNoise() {
-        return "The " + getObjName() + " " + getName() + " is Miao";
+        // Randomly call function
+        Random r = new Random();
+        int randomInt = r.nextInt(3);
+        switch (randomInt){
+            case 0: return meow();
+            case 1: return layDown();
+            case 2: return sharpenClaws();
+            default: return layDown();
+        }
+    }
+
+    private String meow() {
+        return "The " + getObjName() + " " + getName() + " is meowing";
+    }
+
+    private String layDown() {
+        return "The " + getObjName() + " " + getName() + " is laying down.";
+    }
+
+    private String sharpenClaws(){
+        return "The " + getObjName() + " " + getName() + " is sharpening claws.";
     }
 
     @Override
