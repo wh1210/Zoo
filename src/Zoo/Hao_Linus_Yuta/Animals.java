@@ -11,5 +11,4 @@ public interface Animals {
 
     String wakeup();
 
-    String getName();
 }

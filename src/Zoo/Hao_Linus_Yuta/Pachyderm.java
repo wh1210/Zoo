@@ -4,6 +4,6 @@ public abstract class Pachyderm extends Animal {
 
     @Override
     public String roam() {
-        return "The Pachyderm is roaming";
+        return "The " + getObjName() + " " + getName() + " is roaming";
     }
 }

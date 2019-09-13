@@ -2,7 +2,7 @@ package Zoo.Hao_Linus_Yuta;
 
 import java.util.ArrayList;
 
-public class Zoo {
+final class Zoo {
     public static void main(String[] args) {
         ArrayList<Animals> animals = initializeZoo();
         ZooKeeper zookeeper = new ZooKeeper();
@@ -13,7 +13,7 @@ public class Zoo {
         zookeeper.shutdown(animals);
     }
 
-    public static ArrayList<Animals> initializeZoo() {
+    private static ArrayList<Animals> initializeZoo() {
         ArrayList<Animals> animals = new ArrayList<>();
         animals.add(new Cat("cat1"));
         animals.add(new Cat("cat2"));

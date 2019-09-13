@@ -1,34 +1,28 @@
 package Zoo.Hao_Linus_Yuta;
 
-public class Dog extends Canine {
-    public String name;
+final class Dog extends Canine {
 
     public Dog(String name) {
-        this.name = name;
+        setName(name);
     }
 
     @Override
     public String makeNoise() {
-        return "The dog " + name + " is Wang Wang";
+        return "The " + getObjName() + " " + getName() + " is Wang Wang";
     }
 
     @Override
     public String toString() {
-        return "Dog [name=" + name + "]";
+        return "Dog [name=" + getName() + "]";
     }
 
     @Override
     public String eat() {
-        return "The dog " + name + " is eating";
+        return "The " + getObjName() + " " + getName() + " is eating";
     }
 
     @Override
     public String wakeup() {
-        return "The dog " + name + " waked up just now";
-    }
-
-    @Override
-    public String getName() {
-        return this.name;
+        return "The " + getObjName() + " " + getName() + " waked up just now";
     }
 }

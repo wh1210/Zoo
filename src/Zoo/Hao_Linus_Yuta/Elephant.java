@@ -1,35 +1,29 @@
 package Zoo.Hao_Linus_Yuta;
 
-public class Elephant extends Pachyderm {
+final class Elephant extends Pachyderm {
 
-    public String name;
 
     public Elephant(String name) {
-        this.name = name;
+        setName(name);
     }
 
     @Override
     public String makeNoise() {
-        return "The elephant " + name + " is WYuuuuu";
+        return "The " + getObjName() + " " + getName() + " is WYuuuuu";
     }
 
     @Override
     public String toString() {
-        return "Elephant [name=" + name + "]";
+        return "Elephant [name=" + getName() + "]";
     }
 
     @Override
     public String eat() {
-        return "The elephant " + name + " is eating";
+        return "The " + getObjName() + " " + getName() + " is eating";
     }
 
     @Override
     public String wakeup() {
-        return "The elephant " + name + " waked up just now";
-    }
-
-    @Override
-    public String getName() {
-        return this.name;
+        return "The " + getObjName() + " " + getName() + " waked up just now";
     }
 }
