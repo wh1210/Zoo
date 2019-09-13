@@ -1,34 +1,29 @@
 package Zoo.Hao_Linus_Yuta;
 
-public class Tiger extends Feline {
-    public String name;
+final public class Tiger extends Feline {
 
     public Tiger(String name) {
-        this.name = name;
+
+        setName(name);
     }
 
     @Override
     public String makeNoise() {
-        return "The tiger " + name + " is Woooo";
+        return "The " + getObjName() + " " + getName() + " is Woooo";
     }
 
     @Override
     public String toString() {
-        return "Tiger [name=" + name + "]";
+        return "The " + getObjName() + " " + getName() + "]";
     }
 
     @Override
     public String eat() {
-        return "The tiger " + name + " is eating";
+        return "The " + getObjName() + " " + getName() + " is eating";
     }
 
     @Override
     public String wakeup() {
-        return "The tiger " + name + " waked up just now";
-    }
-
-    @Override
-    public String getName() {
-        return this.name;
+        return "The " + getObjName() + " " + getName() + " waked up just now";
     }
 }

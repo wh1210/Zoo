@@ -4,6 +4,6 @@ public abstract class Feline extends Animal {
 
     @Override
     public String roam() {
-        return "The Feline is roaming";
+        return "The " + getObjName() + " " + getName() + " is roaming";
     }
 }
