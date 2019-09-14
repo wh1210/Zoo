@@ -3,37 +3,37 @@ package Zoo.Hao_Linus_Yuta;
 import java.util.ArrayList;
 
 final class ZooKeeper {
-    protected void wake(ArrayList<Animals> animals) {
+    void wake(ArrayList<Animal> animals) {
         System.out.println("The zookeeper is waking up animals");
-        for (Animals animal : animals) {
+        for (Animal animal : animals) {
             System.out.println(animal.wakeup());
         }
     }
 
-    protected void rollCall(ArrayList<Animals> animals) {
-        System.out.println("The zookeeper is rolling call animals");
-        for (Animals animal : animals) {
+    void rollCall(ArrayList<Animal> animals) {
+        System.out.println("\nThe zookeeper is rolling call animals");
+        for (Animal animal : animals) {
             System.out.println(animal.makeNoise());
         }
     }
 
-    protected void feed(ArrayList<Animals> animals) {
-        System.out.println("The zookeeper is feeding animals");
-        for (Animals animal : animals) {
+    void feed(ArrayList<Animal> animals) {
+        System.out.println("\nThe zookeeper is feeding animals");
+        for (Animal animal : animals) {
             System.out.println(animal.eat());
         }
     }
 
-    protected void exercise(ArrayList<Animals> animals) {
-        System.out.println("The zookeeper is exercising animals");
-        for (Animals animal : animals) {
+    void exercise(ArrayList<Animal> animals) {
+        System.out.println("\nThe zookeeper is exercising animals");
+        for (Animal animal : animals) {
             System.out.println(animal.roam());
         }
     }
 
-    public void shutdown(ArrayList<Animals> animals) {
-        System.out.println("The zookeeper is shutting down the zoo");
-        for (Animals animal : animals) {
+    void shutdown(ArrayList<Animal> animals) {
+        System.out.println("\nThe zookeeper is shutting down the zoo");
+        for (Animal animal : animals) {
             System.out.println(animal.sleep());
         }
     }

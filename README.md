@@ -5,6 +5,5 @@ TODO
 - [ ] Write the Readme (with UML)
 - [ ] Make test cases
 - [ ] Refactor code
-    - [ ] Unify getClass().getSimpleName() + " " + name
-    - [ ] Change accessibility of classes, methods, attributes
 - [ ] Add comments
+- [ ] Generate the out file
