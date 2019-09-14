@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 final class Zoo {
     public static void main(String[] args) {
-        ArrayList<Animals> animals = initializeZoo();
+        ArrayList<Animal> animals = initializeZoo();
         ZooKeeper zookeeper = new ZooKeeper();
         zookeeper.wake(animals);
         zookeeper.rollCall(animals);
@@ -13,16 +13,16 @@ final class Zoo {
         zookeeper.shutdown(animals);
     }
 
-    private static ArrayList<Animals> initializeZoo() {
-        ArrayList<Animals> animals = new ArrayList<>();
-        animals.add(new Cat("cat1"));
-        animals.add(new Cat("cat2"));
+    private static ArrayList<Animal> initializeZoo() {
+        ArrayList<Animal> animals = new ArrayList<>();
         animals.add(new Hippo("hippo1"));
         animals.add(new Hippo("hippo2"));
         animals.add(new Rhino("rhino1"));
         animals.add(new Rhino("rhino2"));
         animals.add(new Elephant("elephant1"));
         animals.add(new Elephant("elephant2"));
+        animals.add(new Cat("cat1"));
+        animals.add(new Cat("cat2"));
         animals.add(new Tiger("tiger1"));
         animals.add(new Tiger("tiger2"));
         animals.add(new Lion("lion1"));

@@ -1,10 +1,12 @@
 package Zoo.Hao_Linus_Yuta;
 
 public abstract class Canine extends Animal {
+    Canine(String name) {
+        super(name);
+    }
 
-    public abstract String makeNoise();
-
+    @Override
     public String roam() {
-        return "The " + getObjName() + " " + getName() + " is roaming";
+        return getName() + " is roaming" + " (Canine)";
     }
 }

@@ -1,21 +1,29 @@
 package Zoo.Hao_Linus_Yuta;
 
-public abstract class Animal implements Animals {
+public abstract class Animal {
     private String name;
 
-    protected String getName() {
-        return this.name;
-    }
-
-    protected void setName(String name) {
+    Animal(String name) {
         this.name = name;
     }
 
-    protected String getObjName() {
-        return getClass().getSimpleName();
+    protected String getName() {
+        return this.name + "(" + getClass().getSimpleName() + ")";
     }
 
-    public String sleep() {
-        return "The " + getClass().getSimpleName() + " " + name + " is sleeping";
+    String sleep() {
+        return getName() + " is sleeping (Zzzzz)";
     }
+
+    String wakeup() {
+        return getName() + " waked up just now";
+    }
+
+    String eat() {
+        return getName() + " is eating";
+    }
+
+    abstract String makeNoise();
+
+    abstract String roam();
 }
