@@ -1,9 +1,9 @@
 # Zoo
 First course project for CSCI5448
 
-TODO
-- [ ] Write the Readme (with UML)
-- [ ] Make test cases
-- [ ] Refactor code
-- [ ] Add comments
-- [ ] Generate the out file
+Team Member: 
+             
+             1.Yutaka Urakami
+             2.Mengyu Wu
+             3.Hao Wu 
+             
