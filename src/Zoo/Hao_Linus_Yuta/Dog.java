@@ -1,7 +1,6 @@
 package Zoo.Hao_Linus_Yuta;
 
-final class Dog extends Canine {
-
+public class Dog extends Canine {
     Dog(final String name) {
         super(name);
     }

@@ -2,7 +2,7 @@ package Zoo.Hao_Linus_Yuta;
 
 import java.util.ArrayList;
 
-class Zoo {
+public class Zoo {
     public static void main(String[] args) {
         ArrayList<Animal> animals = initializeZoo();
         ZooKeeper zookeeper = new ZooKeeper();

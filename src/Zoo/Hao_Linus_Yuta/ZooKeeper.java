@@ -2,7 +2,7 @@ package Zoo.Hao_Linus_Yuta;
 
 import java.util.ArrayList;
 
-class ZooKeeper {
+public class ZooKeeper {
     protected void wake(ArrayList<Animal> animals) {
         System.out.println("The zookeeper is waking up animals");
         for (Animal animal : animals) {

@@ -2,8 +2,7 @@ package Zoo.Hao_Linus_Yuta;
 
 import java.util.Random;
 
-final class Cat extends Feline {
-
+public class Cat extends Feline {
     Cat(final String name) {
         super(name);
     }

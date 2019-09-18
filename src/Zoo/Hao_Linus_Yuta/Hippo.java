@@ -1,6 +1,6 @@
 package Zoo.Hao_Linus_Yuta;
 
-final class Hippo extends Pachyderm {
+public class Hippo extends Pachyderm {
     Hippo(final String name) {
         super(name);
     }
