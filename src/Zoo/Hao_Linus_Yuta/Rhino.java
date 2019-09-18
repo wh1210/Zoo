@@ -1,12 +1,12 @@
 package Zoo.Hao_Linus_Yuta;
 
-final class Rhino extends Pachyderm {
-    Rhino(String name) {
+public class Rhino extends Pachyderm {
+    Rhino(final String name) {
         super(name);
     }
 
     @Override
-    public String makeNoise() {
+    protected String makeNoise() {
         return getName() + " is Mowwwwwww";
     }
 }

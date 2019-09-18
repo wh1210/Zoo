@@ -2,14 +2,13 @@ package Zoo.Hao_Linus_Yuta;
 
 import java.util.Random;
 
-final class Cat extends Feline {
-
-    Cat(String name) {
+public class Cat extends Feline {
+    Cat(final String name) {
         super(name);
     }
 
     @Override
-    public String makeNoise() {
+    protected String makeNoise() {
         // Randomly call function
         Random r = new Random();
         int randomInt = r.nextInt(3);

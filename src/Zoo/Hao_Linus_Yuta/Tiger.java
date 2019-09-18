@@ -1,12 +1,12 @@
 package Zoo.Hao_Linus_Yuta;
 
-final public class Tiger extends Feline {
-    Tiger(String name) {
+public class Tiger extends Feline {
+    Tiger(final String name) {
         super(name);
     }
 
     @Override
-    public String makeNoise() {
+    protected String makeNoise() {
         return getName() + " is Woooo";
     }
 }
