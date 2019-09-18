@@ -1,9 +1,9 @@
 package Zoo.Hao_Linus_Yuta;
 
 public abstract class Animal {
-    private String name;
+    final private String name;
 
-    Animal(String name) {
+    Animal(final String name) {
         this.name = name;
     }
 
@@ -11,19 +11,19 @@ public abstract class Animal {
         return this.name + "(" + getClass().getSimpleName() + ")";
     }
 
-    String sleep() {
+    protected String sleep() {
         return getName() + " is sleeping (Zzzzz)";
     }
 
-    String wakeup() {
+    protected String wakeup() {
         return getName() + " waked up just now";
     }
 
-    String eat() {
+    protected String eat() {
         return getName() + " is eating";
     }
 
-    abstract String makeNoise();
+    abstract protected String makeNoise();
 
-    abstract String roam();
+    abstract protected String roam();
 }

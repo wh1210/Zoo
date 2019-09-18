@@ -2,12 +2,12 @@ package Zoo.Hao_Linus_Yuta;
 
 final class Elephant extends Pachyderm {
 
-    Elephant(String name) {
+    Elephant(final String name) {
         super(name);
     }
 
     @Override
-    public String makeNoise() {
+    protected String makeNoise() {
         return getName() + " is WYuuuuu";
     }
 }
