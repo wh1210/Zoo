@@ -2,3 +2,8 @@
 out/
 .idea/
 Zoo.iml
+
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
