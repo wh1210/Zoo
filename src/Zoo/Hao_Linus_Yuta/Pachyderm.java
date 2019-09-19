@@ -1,5 +1,11 @@
 package Zoo.Hao_Linus_Yuta;
 
+/**
+ * Create a abstract Pachyderm class which extend by Animal for each Pyachydrem animal in Zoo
+ * overide roam() and wakeup() methods for Pachyderm animals
+ * @author Hao_Yuta_Linus
+ * @since 2019-09-18
+ */
 public abstract class Pachyderm extends Animal {
     Pachyderm(final String name) {
         super(name);

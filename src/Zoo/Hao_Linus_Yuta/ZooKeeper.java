@@ -2,6 +2,12 @@ package Zoo.Hao_Linus_Yuta;
 
 import java.util.ArrayList;
 
+/**
+ * Creat a ZooKeeper class for hold each animals in Zoo
+ * set each methods that ZooKeeper should do
+ * @author Hao_Yuta_Linus
+ * @since 2019-09-18
+ */
 public class ZooKeeper {
     protected void wake(ArrayList<Animal> animals) {
         System.out.println("The zookeeper is waking up animals");
