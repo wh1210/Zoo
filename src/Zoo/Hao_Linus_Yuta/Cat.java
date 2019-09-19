@@ -3,7 +3,7 @@ package Zoo.Hao_Linus_Yuta;
 import java.util.Random;
 /**
  * Create a Cat class which extend by Feline
- * overide makeNoise() with call a random function from (meow(), layDown(), sharpenClaws())
+ * override makeNoise() which randomly calls meow(), layDown(), or sharpenClaws()
  * @author Hao_Yuta_Linus
  * @since 2019-09-18
  */

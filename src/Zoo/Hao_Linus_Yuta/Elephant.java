@@ -2,7 +2,7 @@ package Zoo.Hao_Linus_Yuta;
 
 /**
  * Create a Elephant class which extend by Pachyderm
- * overide makeNoise() for Elephant
+ * override makeNoise() for Elephant
  * @author Hao_Yuta_Linus
  * @since 2019-09-18
  */

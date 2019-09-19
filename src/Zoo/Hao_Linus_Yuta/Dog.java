@@ -2,7 +2,7 @@ package Zoo.Hao_Linus_Yuta;
 
 /**
  * Create a Dog class which extend by Canine
- * overide makeNoise() for Dog
+ * override makeNoise() for Dog
  * @author Hao_Yuta_Linus
  * @since 2019-09-18
  */

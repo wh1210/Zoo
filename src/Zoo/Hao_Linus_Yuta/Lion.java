@@ -1,7 +1,7 @@
 package Zoo.Hao_Linus_Yuta;
 /**
  * Create a Lion class which extend by Feline
- * overide makeNoise() for Lion
+ * override makeNoise() for Lion
  * @author Hao_Yuta_Linus
  * @since 2019-09-18
  */

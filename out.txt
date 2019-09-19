@@ -89,4 +89,3 @@ dog1(Dog) is sleeping (Zzzzz)
 dog2(Dog) is sleeping (Zzzzz)
 
 Process finished with exit code 0
-

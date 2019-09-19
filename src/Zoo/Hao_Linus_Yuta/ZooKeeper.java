@@ -3,8 +3,7 @@ package Zoo.Hao_Linus_Yuta;
 import java.util.ArrayList;
 
 /**
- * Creat a ZooKeeper class for hold each animals in Zoo
- * set each methods that ZooKeeper should do
+ * Creat a ZooKeeper class for defining orders (methods) which Zookeeper does
  * @author Hao_Yuta_Linus
  * @since 2019-09-18
  */
