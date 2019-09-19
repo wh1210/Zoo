@@ -1,7 +1,13 @@
 package Zoo.Hao_Linus_Yuta;
-
 import java.util.ArrayList;
-
+/**
+ * Creat a Zoo class for initializing a ZooKeeper()
+ * Contains the main function
+ * Initialize ArrayList containing Animal objects in ZooKeeper()
+ * Instance animals' subclasses
+ * @author Hao_Yuta_Linus
+ * @since 2019-09-18
+ */
 public class Zoo {
     public static void main(String[] args) {
         ArrayList<Animal> animals = initializeZoo();

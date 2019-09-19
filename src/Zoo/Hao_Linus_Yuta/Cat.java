@@ -1,7 +1,12 @@
 package Zoo.Hao_Linus_Yuta;
 
 import java.util.Random;
-
+/**
+ * Create a Cat class which extend by Feline
+ * override makeNoise() which randomly calls meow(), layDown(), or sharpenClaws()
+ * @author Hao_Yuta_Linus
+ * @since 2019-09-18
+ */
 public class Cat extends Feline {
     Cat(final String name) {
         super(name);
